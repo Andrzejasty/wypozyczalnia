@@ -1,0 +1,43 @@
+<div>
+    <div class="choose" id="choose">
+        <div>
+            <fieldset>
+                <legend>Wybierz płeć</legend>
+                <label><input type="radio" id="male" value="m" name="chooseSex" unchecked> Męskie </label>
+                <label><input type="radio" id="female" value="f" name="chooseSex" unchecked> Żeńskie </label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Wybierz typ roweru</legend>
+                <div><label><input type="radio" id="rb" value="rb" name="chooseBicType" unchecked> Szosowe </label></div>
+                <div><label><input type="radio" id="mtb" value="mtb" name="chooseBicType" unchecked> Górskie </label></div>
+                <div><label><input type="radio" id="sb" value="sb" name="chooseBicType" unchecked> Miejskie </label></div>
+                <div><label><input type="radio" id="cb" value="cb" name="chooseBicType" unchecked> Dziecięce </label></div>
+            </fieldset>
+        </div><br>
+        <div>
+            <div><label>Data rozpoczęcia wynajmu</label></div>
+            <div><input type="date" id="dataRent"></div>
+        </div><br>
+        <div>
+            <label>Na ile dni</label>
+            <input type="number" id="daysRent">
+        </div><br>
+        <div><input type="submit" value="Sprawdź dostępność" onclick="checkAvail()"></div>
+
+    </div>
+    <div class="bikeView" id="bikeview">
+        <div class="bicycleimg" id="bicycleimg"></div>
+        <div class="bikePrice" id="bikeprice">
+            <div><h2><label id="bikeName"></label></h2></div>
+            <div><label id="price"></label></div>
+            <div><label id="availb"></label></div>
+        </div>
+    </div>
+
+</div>
+<div class="rent" id="rent">
+    <div><label id="rentPrice"></label></div>
+    <div><input type="submit" id="rentSubmit" value="Złóż zamówienie" onclick="rentBicycle()"></div>
+</div>

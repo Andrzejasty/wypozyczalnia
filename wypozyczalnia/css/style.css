@@ -1,0 +1,141 @@
+body
+{
+    color: black;
+    margin: 0 !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.container
+{
+    width: 100%;
+}
+.header
+{
+    text-align: center;
+    font-size: 28px;
+    height: 40px;
+}
+.nav
+{
+    width: 100%;
+    background: darkslategrey;
+    padding: 5px 0;
+    text-align: center;
+}
+.content
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer
+{
+    text-align: center;
+    border-top: 1px solid black;
+    clear: both;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 150%;
+    height: 25px;
+    display: inline-block;
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    float: left;
+    min-width: 130px;
+    width: auto;
+    border-right: 1px solid black;
+    opacity: 0.8;
+}
+ol > li:hover
+{
+    background-color: darkslateblue;
+}
+ol > li:last-child
+{
+    border: none;
+}
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+ol > li > ul > li
+{
+    position: relative;
+    z-index: 100;
+    background-color: darkslateblue;
+}
+ol > li > ul > li:hover > a
+{
+    background: darkslategrey;
+}
+ol > li:hover > ul
+{
+    display: block;
+}
+.homepage
+{
+    width: 100%;
+}
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.bicycle
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.log
+{
+    margin-left: 350px;
+    line-height: 25px;
+}
+.choose
+{
+    width: 300px;
+    float: left;
+    margin-left: 200px;
+    margin-right: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.bikeView
+{
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.bikePrice
+{
+    text-align: center;
+}
+.bicycleimg
+{
+    height: 230px;
+}
+.rent
+{
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
